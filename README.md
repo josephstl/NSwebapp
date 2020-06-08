@@ -11,8 +11,6 @@ in CMD, Powershell, terminal, etc type this comand
 
 	go get github.com/josephstl/NSwebapp
 
-	go get github.com/sqweek/dialog
-
 	pip install pyinstaller
 
 	pip install easygui
@@ -20,7 +18,7 @@ in CMD, Powershell, terminal, etc type this comand
 
 this will download all the necessary files in the src folder under src/github and install the python compiler
 
-to compile:
+to compile cd into the main folder:
 
 for the main executible type in to the terminal:
 
