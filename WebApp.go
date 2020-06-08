@@ -50,7 +50,7 @@ func main() {
 			log.Fatal(err)
 		}
 
-		// this creates a dialog box when you close the webapp window that asks you if you would like to reopen the window
+	
 	}
 
 }
