@@ -4,7 +4,7 @@ package main
 
 import (
 	"bytes"
-	d "dialog"
+	d "github.com/sqweek/dialog"
 	f "fmt"
 	"log"
 	"os"
