@@ -11,8 +11,6 @@ in CMD, Powershell, terminal, etc type this comand
 
 	go get github.com/josephstl/NSwebapp
 
-	go get github.com/sqweek/dialog
-
 	pip install pyinstaller
 
 	pip install easygui
