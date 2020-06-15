@@ -10,7 +10,7 @@ ul#horizontal {
 	margin-top:4px;
 	padding:0;
 	list-style:none;
-	width:1020px;
+	width:auto;
 
 	}
 	ul#horizontal li a:hover {
@@ -27,7 +27,7 @@ ul#horizontal {
 	ul#horizontal li a {
 	text-decoration:none;
 	float:left;
-	width:328px;
+	width:30%;
 	background:#eeeeee;
 	padding:5px;
 	border-left:1px  #FFFFFF solid;
@@ -35,7 +35,7 @@ ul#horizontal {
 	}
 </style>
 </head>
-<body style=" margin:0 auto; width: 1020px;">
+<body style=" margin:0 auto; width:auto; min-height: 640px;">
 <div style="float:none; height:20px; background-color: #eeeeee">
 	<ul id="horizontal" style=" height:20px">
 		<li><a href="https://core1-stl.stlcomcloud.com/webphone" target="wpp">Web Phone</a></li>
@@ -44,13 +44,13 @@ ul#horizontal {
 	</ul>
 
 </div>
-<div style="float:none; height:920px; background-color:#559ec7">
-	<iframe name="wpp" src="https://core1-stl.stlcomcloud.com/webphone" width="1018" height="800" allow="encrypted-media; microphone" allow-top-navigation></iframe>
+<div style="float:none; width:100%; min-height: 615px;height: auto; background-color:#eeeeee" id="vertical">  
+	<iframe name="wpp" src="https://core1-stl.stlcomcloud.com/webphone" style="width:100%;min-height: 615px; height: auto; " allow="encrypted-media; microphone" allow-top-navigation></iframe>
 
 </div>
 <script type="text/javascript">
   window.onbeforeunload = function(e) {
-  return 'Dialog text here. Iffy functionality.';
+  return 'Are you sure you want to leave';
 };
 </script>
 </body>
